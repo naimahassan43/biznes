@@ -1,0 +1,930 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+*{	
+  font-size: 14px;	
+}
+
+h2{
+	font-size: 22px;
+}
+.sec_title h2 {
+    margin-bottom: 0;
+    padding: 8px 0 10px;
+}
+.sec_title h2 span{
+	font-size: 22px;
+}
+/*=============================
+        Header Area 
+ =============================*/
+.header, .fixed .header{
+	position: static;
+}
+.top_cont{
+  display: block;
+  text-align: center;
+}
+ .top_left ul, .top_right ul {
+    display: block;
+}
+.top_left ul li, .top_right ul li {
+    padding: 5px 0;
+}
+.top_left ul li {
+    padding: 5px 0;
+    display: block;
+}
+.top_right ul li {
+    display: inline-block;
+}
+
+.top_right ul li a{
+	margin-left: 0;
+	margin-right: 10px;
+} 
+.c_navbar a img{
+   max-width: 80% !important;
+}
+.c_navbar button i{
+   font-size: 20px !important;
+
+}
+.cus_nav{
+	text-align: center;
+}
+.cus_nav li {
+    margin: -5px 0;
+   
+}
+
+/*=============================
+        Slider Area Start
+=============================*/
+.slider{
+	padding-top: 0;
+}
+
+/*slider-content*/
+.slider-content {
+    margin-bottom: 0px;
+    width: 100%;
+    padding: 12px;
+}
+
+.slider-content p:first-child {
+    font-size: 10px;
+    margin-bottom: 0;
+    margin-top: 12px;
+}
+.slider-content h2 {
+    font-size: 22px !important;
+}
+.slider-content .sec_p{
+	display: none;
+}
+.slider_btn .sc_btn {
+    margin: 6px;  
+}
+.sc_btn{
+	font-size: 4px;
+  padding: 3px 6px;
+  display: inline-block;
+  border-radius: 14px;
+}
+.bullet {
+	display: none;
+}
+.left-arr a i,
+.right-arr a i {
+	font-size: 12px;
+}
+.slider-arrow .left-arr{
+	left: 8px;
+}
+.slider-arrow .right-arr {
+    right: 8px;
+}
+
+/*=============================
+        About Area Start
+  =============================*/
+.about{
+	margin-top: 0;
+}
+
+.abt-content{
+	padding: 30px 0;
+}
+.main-content{
+	padding-left: 0;
+	padding-bottom: 0;
+}
+.abt-para {
+   padding: 0;
+   margin-bottom: 20px;
+}
+
+/*=============================
+        What we do Area Start
+=============================*/
+.we-do{
+	margin-top: 30px;
+
+}
+.do-content{
+    margin: 40px 0;
+}
+.single-item{
+	margin-top: 15px;
+}
+
+.sd-icon ion-icon{
+	font-size: 30px;
+	
+}
+.sd-title h4 {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.sd-content {
+    padding-top: 5px;
+}
+.r_img{
+   margin-top: 20px;  
+}
+.r_img img {
+    max-width: 100%;
+    margin-bottom: 0;
+}
+/*=============================
+        Recent Work Start
+  =============================*/
+  .work{
+  	padding: 30px 0;
+  }
+
+  /*Gallery*/
+  
+  .s_gallary{
+  	margin-top: 20px;
+
+  }
+  /*=============================
+        Tab Area Start
+  =============================*/
+
+  .c_nav_tab li a{
+  	font-size: 14px;
+  	padding: 8px;
+  	
+  }
+
+  .c_nav_tab li a i{
+  	margin-right: 8px;
+  }
+
+.tab-cont{
+  	padding: 40px 0;
+  }
+.left_tab_cont {
+    margin-bottom: 25px;
+}
+.left_tab_cont p{
+  	margin-top: 15px;
+  	
+  }
+
+/*=============================
+        Big banner area Start
+  =============================*/
+.big_ban_content{
+	padding: 50px 0;
+} 
+
+.big_ban_content h2{
+	font-size: 18px;
+	letter-spacing: 0;
+	word-spacing: 0;
+} 
+
+.big_btn .sc_btn,
+.big_btn .sc_btn:hover{
+	font-size: 4px !important;
+    padding: 4px 8px;
+    border-radius: 25px;
+}
+
+/*=============================
+      Team Member area Start
+  =============================*/
+.team{
+	padding-top: 40px;
+	
+}
+.team .sec_title{
+	margin-bottom: 30px;
+}
+
+.single-member img{
+	margin-bottom: 20px;
+}
+
+.single-member:hover .t-hover-cont{
+	margin-bottom: 20px;
+} 
+
+/*=============================
+        Blog area Start
+  =============================*/
+.blog{
+	padding: 20px 0;
+}
+.blog-cont{
+	margin-top: 30px;
+}
+.c-date {
+    left: 10px;
+    bottom: 10px;
+    padding: 5px;
+    box-shadow: 7px 6px #6f9c3b;
+}
+
+.date{
+	font-size: 18px;
+	
+}
+.month{
+	font-size: 8px;
+	
+}
+.c-blog-title{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.b-right h3{
+	padding-bottom: 5px !important;
+}
+/*=============================
+        Partner Area Start
+  =============================*/
+.partner{
+	padding: 30px 0;
+	
+}
+/*=============================
+        Footer Start
+  =============================*/
+.footer{
+	padding: 20px 0;
+}
+.widget{
+	padding-top: 0;
+	margin-top: 15px;
+
+}
+.f-widget{
+	padding: 0;
+	background: none;
+	
+}
+.f-widget:before{
+	background: none;
+}
+.f-widget .widget-logo{
+	margin-bottom: 12px;
+}
+.widget-soc ul li a{
+    padding: 8px;
+    margin: 0;
+ 
+}
+
+.widget-title{
+	padding-bottom: 10px;
+}
+
+.widget-cont {
+	line-height: 1.5;
+}
+.tweet-feed li a p{
+	margin-bottom: 5px;
+}
+/*top*/
+.top {
+    width: 30px;
+    height: 40px;
+    right: 20px;
+    bottom: 10px;
+    border-radius: 3px;   
+}
+.top i{
+	font-size: 25px;	
+}
+
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /*=============================
+        Header Area 
+ =============================*/
+.header, .fixed .header{
+	position: static;
+}
+.top_cont{
+  display: block;
+  text-align: center;
+}
+ .top_left ul, .top_right ul {
+    display: block;
+}
+.top_left ul li, .top_right ul li {
+    padding: 5px 0;
+}
+.top_left ul li {
+    padding: 5px 0;
+    display: block;
+}
+.top_right ul li {
+    display: inline-block;
+}
+
+.top_right ul li a{
+	margin-left: 0;
+	margin-right: 10px;
+} 
+.cus_nav li{
+	margin: 0 !important;
+}
+
+/*=============================
+        Slider Area Start
+=============================*/
+
+.slider{
+	padding-top: 0;
+}
+
+/*slider-content*/
+.slider-content{
+   margin-bottom: 0px;
+   width: 100%;
+   padding: 0 30px;
+}
+
+.slider-content p:first-child {
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+.slider-content h2{
+	font-size: 28px !important;
+	
+}
+.slider-content .sec_p{
+	line-height: 1.2;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+.slider_btn .sc_btn {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 4px;
+    
+}
+.sc_btn{
+	font-size: 14px;
+	padding: 10px 20px;
+	display: inline-block;
+	border-radius: 20px;
+
+}
+.bullet {
+	display: none;
+}
+.left-arr a i,
+.right-arr a i {
+	font-size: 18px;
+}
+.slider-arrow .left-arr{
+	left: 10px;
+}
+.slider-arrow .right-arr {
+    right: 10px;
+}
+/*=============================
+        About Area Start
+  =============================*/
+.about{
+	margin-top: 0;
+}
+
+.abt-content{
+	padding: 30px 0;
+}
+.main-content{
+	padding-left: 0;
+	padding-bottom: 0;
+}
+.abt-para {
+   padding: 0;
+   margin-bottom: 20px;
+}
+
+/*=============================
+        What we do Area Start
+=============================*/
+.we-do{
+	margin-top: 30px;
+
+}
+.do-content{
+    margin: 40px 0;
+}
+.single-item{
+	margin-top: 15px;
+}
+
+.sd-icon ion-icon{
+	font-size: 30px;
+	
+}
+.sd-title h4 {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.sd-content {
+    padding-top: 5px;
+}
+.r_img{
+   margin-top: 20px;  
+}
+.r_img img {
+    max-width: 100%;
+    margin-bottom: 0;
+}
+/*=============================
+        Recent Work Start
+  =============================*/
+  .work{
+  	padding: 40px 0;
+  }
+
+  .w_nav{
+  	margin: 30px 0;
+  }
+  .w_nav ul li{
+  	font-size: 10px;
+  	padding: 0 8px;
+  }
+  .w_nav ul li:after{
+  	height: 8px;
+  	top: 4px;
+  }
+  .w_nav ul li:last-child:after{
+  	width: 0;
+  }
+
+  /*Gallery*/
+  .p-ar{
+  	padding: 2px;
+  }
+  .s_gallary{
+  	margin-bottom: 10px;
+
+  }
+  
+/*=============================
+        Tab Area Start
+  =============================*/
+  .c_nav_tab li a{
+  	font-size: 14px;
+  	padding: 8px;
+  	
+  }
+  .c_nav_tab li a i{
+  	margin-right: 8px;
+  }
+
+.tab-cont{
+  	padding: 40px 0;
+  }
+.left_tab_cont {
+    margin-bottom: 25px;
+}
+.left_tab_cont p{
+  	margin-top: 15px;
+  	
+  }
+
+/*=============================
+        Big banner area Start
+  =============================*/
+.big_ban_content h2{
+	font-size: 20px;
+	letter-spacing: 0;
+	word-spacing: 0;
+} 
+
+.big_btn .sc_btn,
+.big_btn .sc_btn:hover{
+	font-size: 10px !important;
+	padding: 18px 20px;
+	border-radius: 40px;
+}
+
+/*=============================
+      Team Member area Start
+  =============================*/
+.team{
+	padding-top: 40px;
+	
+}
+.team .sec_title{
+	margin-bottom: 30px;
+}
+.single-member img{
+	margin-bottom: 30px;
+}
+
+.single-member:hover .t-hover-cont{
+	margin-bottom: 30px;
+} 
+
+/*=============================
+        Blog area Start
+  =============================*/
+.blog{
+	padding: 30px 0;
+}
+.blog-cont{
+	margin-top: 50px;
+}
+.c-blog-title{
+	
+	padding-bottom: 20px;
+}
+.b-right h3{
+	padding-bottom: 5px !important;
+}
+/*=============================
+        Partner Area Start
+  =============================*/
+.partner{
+	padding: 40px 0;	
+}
+/*=============================
+        Footer Start
+  =============================*/
+.widget{
+	padding-top: 0;
+	margin-top: 30px;
+
+}
+.f-widget{
+	padding: 15px 0;
+	background: none;
+	
+}
+.f-widget:before{
+	background: none;
+}
+.widget-soc ul li a{
+    padding: 8px;
+    margin: 0;
+}
+.widget-title{
+	padding-bottom: 15px;
+}
+.widget-cont {
+	line-height: 1.5;
+}
+/*top*/
+.top {
+    width: 40px;
+    height: 50px;
+    right: 14px;
+    bottom: 14px;
+    border-radius: 4px;   
+}
+.top i{
+	font-size: 30px;	
+}
+
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+/*=============================
+        Header Area 
+ =============================*/
+.header, .fixed .header{
+	position: static;
+}
+.top_cont{
+  display: block;
+  text-align: center;
+}
+ .top_left ul, .top_right ul {
+    display: block;
+}
+.top_left ul li, .top_right ul li {
+    padding: 5px 0;
+}
+.top_left ul li {
+    padding: 5px 0;
+    display: block;
+}
+.top_right ul li {
+    display: inline-block;
+}
+
+.top_right ul li a{
+	margin-left: 0;
+	margin-right: 10px;
+} 
+.cus_nav li{
+	margin: 0 !important;
+}
+/*=============================
+        Slider Area Start
+=============================*/
+
+.slider{
+	padding-top: 0;
+}
+
+/*slider-content*/
+.slider-content{
+   margin-bottom: 0px;
+   width: 100%;
+   padding: 0 40px;
+}
+
+.slider-content p:first-child {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.slider-content h2{
+	font-size: 41px !important;
+	
+}
+.slider-content .sec_p{
+	line-height: 1.4;
+	margin-top: 6px;
+	margin-bottom: 8px;
+}
+.slider_btn .sc_btn {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.sc_btn {   
+    padding: 10px 30px;
+  }
+.bullet {
+	bottom: 20px;
+}
+.left-arr a i,
+.right-arr a i {
+	font-size: 28px;
+}
+.slider-arrow .left-arr{
+	left: 15px;
+}
+.slider-arrow .right-arr {
+    right: 15px;
+}
+
+/*=============================
+        About Area Start
+  =============================*/
+.about{
+	margin-top: 50px;
+}
+.abt-content{
+	padding-top: 30px;
+}
+.main-content{
+	padding-bottom: 0;
+}
+.abt-para {
+   padding: 0;
+   margin-bottom: 10px;
+}
+
+/*=============================
+        What we do Area Start
+=============================*/
+.we-do{
+	margin-top: 30px;
+
+}
+.do-content{
+    margin: 40px 0;
+}
+.single-item{
+	margin-top: 15px;
+}
+
+.sd-icon ion-icon{
+	font-size: 30px;
+	
+}
+.sd-title h4 {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.sd-content {
+    padding-top: 5px;
+}
+.r_img{
+   margin-top: 250px;  
+}
+.r_img img {
+    max-width: 110%;
+    margin-bottom: 0;
+}
+/*=============================
+        Tab Area Start
+  =============================*/
+
+.tab-cont{
+  	padding: 40px 0;
+  }
+.left_tab_cont {
+    margin-bottom: 40px;
+}
+
+
+/*=============================
+        Big banner area Start
+  =============================*/
+.big_ban_content h2{
+	
+	letter-spacing: 0;
+	word-spacing: 0;
+} 
+
+.big_btn .sc_btn,
+.big_btn .sc_btn:hover{
+	font-size: 16px !important;
+	padding: 18px;
+}
+
+/*=============================
+      Team Member area Start
+  =============================*/
+.team{
+	padding-top: 60px;
+	
+}
+.team .sec_title{
+	margin-bottom: 40px;
+}
+
+.single-member img{
+	margin-bottom: 10px;
+}
+
+.single-member:hover .t-hover-cont{
+	top: 0;
+	margin-bottom: 10px;
+} 
+.s-mr-cont h4{
+	font-size: 21px;
+	color: #fff;
+}
+/*=============================
+        Blog area Start
+  =============================*/
+.blog{
+	padding: 40px 0;
+}
+.blog-cont{
+	margin-top: 40px;
+}
+.blog-item{
+	margin-bottom: 0;
+}
+.c-blog-title{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.c-blog-title h2{
+	
+	padding-bottom: 10px;
+}
+
+.b-right h3{
+	padding-bottom: 5px !important;
+}
+/*=============================
+        Partner Area Start
+  =============================*/
+.partner{
+	padding: 50px 0;
+	
+}
+/*=============================
+        Footer Start
+  =============================*/
+
+.widget{
+	padding-top: 0;
+	margin-top: 30px;
+
+}
+.f-widget{
+	padding: 15px 0;
+	background: none;
+	
+}
+.f-widget:before{
+	background: none;
+}
+
+.widget-soc ul li a{
+    padding: 8px;
+    margin: 0;
+ 
+}
+
+.widget-title{
+	padding-bottom: 15px;
+}
+
+
+.widget-cont {
+	line-height: 1.5;
+}
+/*top*/
+.top {
+    width: 45px;
+    height: 55px;
+    right: 17px;
+    bottom: 11px;
+    border-radius: 5px;   
+}
+.top i{
+	font-size: 35px;	
+}
+
+  
+}
+
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+ /*=============================
+        Slider Area Start
+=============================*/
+
+.slider{
+	padding-top: 118px;
+}
+
+/*slider-content*/
+.slider-content{
+   margin-bottom: 171px; 
+   width: 100%;
+   padding: 0 115px;
+	
+}
+
+.slider-content p:first-child{
+	font-size: 21px;
+}
+.slider-content h2{
+
+	font-size: 48px !important;
+	
+}
+.slider-content .sec_p{
+	margin-top: 8px;
+	margin-bottom: 30px;
+}
+
+/*=============================
+        About Area Start
+  =============================*/
+.about{
+	margin-top: 50px;
+}
+.abt-content{
+	padding-top: 40px;
+}
+
+/*=============================
+        Big banner area Start
+  =============================*/
+.big_btn .sc_btn {  
+    padding: 25px 50px;   
+}
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  
+}
